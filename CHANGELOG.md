@@ -1,3 +1,7 @@
+1.0.3 / 2015-01-29
+=================
+  * Refactor to aid optimization of non-try/catch code.
+
 1.0.2 / 2015-01-29
 =================
   * Fix broken package.json
