@@ -1,6 +1,6 @@
 {
 	"name": "is-string",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Jordan Harband",
 	"description": "Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"license": "MIT",
@@ -33,10 +33,10 @@
 		"is": "~2.2.0",
 		"tape": "~3.4.0",
 		"indexof": "~0.0.1",
-		"covert": "1.0.0",
+		"covert": "1.0.1",
 		"jscs": "~1.10.0",
 		"editorconfig-tools": "~0.0.1",
-		"nsp": "~1.0.0",
+		"nsp": "~1.0.1",
 		"eslint": "~0.13.0",
 		"semver": "~4.2.0"
 	},
