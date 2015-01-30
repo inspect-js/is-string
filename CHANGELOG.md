@@ -1,3 +1,7 @@
+1.0.4 / 2015-01-29
+=================
+  * If @@toStringTag is not present, use the old-school Object#toString test.
+
 1.0.3 / 2015-01-29
 =================
   * Refactor to aid optimization of non-try/catch code.
