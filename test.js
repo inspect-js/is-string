@@ -23,7 +23,7 @@ test('not Strings', function (t) {
 });
 
 test('@@toStringTag', { skip: !hasSymbols || !Symbol.toStringTag }, function (t) {
-	var fakeString = { valueOf: function () { return '42'; }, toString: function () { return '7'; } };
+	var fakeString = { toString: function () { return '7'; }, valueOf: function () { return '42'; } };
 	fakeString[Symbol.toStringTag] = 'String';
 	t.notOk(isString(fakeString), 'fake String with @@toStringTag "String" is not String');
 	t.end();
