@@ -41,7 +41,7 @@ assert.ok(isString(Object('foo')));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-string
-[2]: http://vb.teelaun.ch/ljharb/is-string.svg
+[2]: http://versionbadg.es/ljharb/is-string.svg
 [3]: https://travis-ci.org/ljharb/is-string.svg
 [4]: https://travis-ci.org/ljharb/is-string
 [5]: https://david-dm.org/ljharb/is-string.svg
