@@ -8,7 +8,8 @@
 	"scripts": {
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
-		"test": "node --harmony --es-staging test.js",
+		"tests-only": "node --harmony --es-staging test.js",
+		"test": "npm run tests-only",
 		"posttest": "npx aud",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
