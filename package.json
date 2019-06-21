@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"test": "node --harmony --es-staging test.js",
 		"posttest": "npx aud",
@@ -35,6 +36,7 @@
 		"foreach": "^2.0.5",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
+		"safe-publish-latest": "^1.1.2",
 		"semver": "^6.1.1",
 		"tape": "^4.10.2"
 	},
