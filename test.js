@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var isString = require('./');
-var hasSymbols = typeof Symbol === 'function' && typeof Symbol() === 'symbol';
+var hasSymbols = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
 
 test('not Strings', function (t) {
 	t.notOk(isString(), 'undefined is not String');
@@ -23,7 +23,10 @@ test('not Strings', function (t) {
 });
 
 test('@@toStringTag', { skip: !hasSymbols || !Symbol.toStringTag }, function (t) {
-	var fakeString = { toString: function () { return '7'; }, valueOf: function () { return '42'; } };
+	var fakeString = {
+		toString: function () { return '7'; },
+		valueOf: function () { return '42'; }
+	};
 	fakeString[Symbol.toStringTag] = 'String';
 	t.notOk(isString(fakeString), 'fake String with @@toStringTag "String" is not String');
 	t.end();

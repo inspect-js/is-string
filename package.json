@@ -28,15 +28,15 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"foreach": "^2.0.5",
-		"is": "^3.1.0",
-		"tape": "^4.2.0",
-		"indexof": "^0.0.1",
-		"covert": "^1.1.0",
+		"@ljharb/eslint-config": "^13.1.1",
+		"covert": "^1.1.1",
 		"editorconfig-tools": "^0.1.1",
-		"eslint": "^1.5.1",
-		"@ljharb/eslint-config": "^1.2.0",
-		"semver": "^5.0.3"
+		"eslint": "^5.16.0",
+		"foreach": "^2.0.5",
+		"indexof": "^0.0.1",
+		"is": "^3.3.0",
+		"semver": "^6.1.1",
+		"tape": "^4.10.2"
 	},
 	"testling": {
 		"files": "test.js",
@@ -60,4 +60,3 @@
 		"node": ">= 0.4"
 	}
 }
-
