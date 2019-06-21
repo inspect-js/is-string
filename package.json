@@ -9,9 +9,7 @@
 		"test": "npm run lint && node --harmony --es-staging test.js && npm run security",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
-		"lint": "npm run jscs && npm run eslint",
-		"jscs": "jscs test.js *.js",
-		"eslint": "eslint test.js *.js",
+		"lint": "eslint .",
 		"eccheck": "editorconfig-tools check *.js **/*.js > /dev/null",
 		"security": "nsp package"
 	},
@@ -34,7 +32,6 @@
 		"tape": "^4.2.0",
 		"indexof": "^0.0.1",
 		"covert": "^1.1.0",
-		"jscs": "^2.1.1",
 		"editorconfig-tools": "^0.1.1",
 		"nsp": "^1.1.0",
 		"eslint": "^1.5.1",
