@@ -1,7 +1,10 @@
 {
 	"name": "is-string",
 	"version": "1.0.4",
-	"author": "Jordan Harband",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"description": "Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"license": "MIT",
 	"main": "index.js",
