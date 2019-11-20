@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var isString = require('./');
+var isString = require('..');
 var hasSymbols = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
 
 test('not Strings', function (t) {
