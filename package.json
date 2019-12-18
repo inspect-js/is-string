@@ -38,12 +38,12 @@
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.1",
 		"eclint": "^2.8.1",
-		"eslint": "^6.6.0",
+		"eslint": "^6.7.2",
 		"foreach": "^2.0.5",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^4.11.0"
+		"tape": "^4.12.0"
 	},
 	"testling": {
 		"files": "test/index.js",
