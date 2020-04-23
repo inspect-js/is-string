@@ -35,7 +35,8 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
-		"auto-changelog": "^1.16.2",
+		"aud": "^1.1.1",
+		"auto-changelog": "^2.0.0",
 		"covert": "^1.1.1",
 		"eclint": "^2.8.1",
 		"eslint": "^6.8.0",
@@ -43,7 +44,7 @@
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.0-next.4"
+		"tape": "^5.0.0-next.5"
 	},
 	"testling": {
 		"files": "test/index.js",
