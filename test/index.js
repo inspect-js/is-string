@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var isString = require('../');
-var hasSymbols = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
+var hasSymbols = typeof Symbol === 'function' && typeof Symbol.iterator !== 'undefined';
 
 test('not Strings', function (t) {
 	t.notOk(isString(), 'undefined is not String');
