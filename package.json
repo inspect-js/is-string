@@ -37,18 +37,18 @@
 		"has-tostringtag": "^1.0.0"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^20.0.0",
-		"aud": "^1.1.5",
+		"@ljharb/eslint-config": "^20.2.0",
+		"aud": "^2.0.0",
 		"auto-changelog": "^2.3.0",
-		"core-js": "^3.19.3",
+		"core-js": "^3.20.2",
 		"eclint": "^2.8.1",
-		"eslint": "^8.4.1",
+		"eslint": "^8.6.0",
 		"foreach": "^2.0.5",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.3.2"
+		"tape": "^5.4.0"
 	},
 	"testling": {
 		"files": "test/index.js",
