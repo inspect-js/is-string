@@ -23,7 +23,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/is-string.git"
+		"url": "git://github.com/inspect-js/is-string.git"
 	},
 	"keywords": [
 		"String",
