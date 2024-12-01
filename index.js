@@ -1,15 +1,18 @@
 'use strict';
 
-var strValue = String.prototype.valueOf;
+var callBound = require('call-bind/callBound');
+
+var $strValueOf = callBound('String.prototype.valueOf');
+
 var tryStringObject = function tryStringObject(value) {
 	try {
-		strValue.call(value);
+		$strValueOf(value);
 		return true;
 	} catch (e) {
 		return false;
 	}
 };
-var toStr = Object.prototype.toString;
+var $toString = callBound('Object.prototype.toString');
 var strClass = '[object String]';
 var hasToStringTag = require('has-tostringtag/shams')();
 
@@ -20,5 +23,5 @@ module.exports = function isString(value) {
 	if (!value || typeof value !== 'object') {
 		return false;
 	}
-	return hasToStringTag ? tryStringObject(value) : toStr.call(value) === strClass;
+	return hasToStringTag ? tryStringObject(value) : $toString(value) === strClass;
 };
