@@ -17,7 +17,7 @@ module.exports = function isString(value) {
 	if (typeof value === 'string') {
 		return true;
 	}
-	if (typeof value !== 'object') {
+	if (!value || typeof value !== 'object') {
 		return false;
 	}
 	return hasToStringTag ? tryStringObject(value) : toStr.call(value) === strClass;
