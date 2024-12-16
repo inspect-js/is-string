@@ -40,12 +40,12 @@
 		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
-		"@arethetypeswrong/cli": "^0.17.0",
+		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
-		"@ljharb/tsconfig": "^0.2.0",
+		"@ljharb/tsconfig": "^0.2.2",
 		"@types/call-bind": "^1.0.5",
 		"@types/core-js": "^2.5.8",
-		"@types/tape": "^5.6.5",
+		"@types/tape": "^5.7.0",
 		"auto-changelog": "^2.5.0",
 		"core-js": "^3.39.0",
 		"eclint": "^2.8.1",
