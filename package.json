@@ -36,14 +36,13 @@
 		"String object"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.8",
+		"call-bound": "^1.0.3",
 		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.2",
-		"@types/call-bind": "^1.0.5",
 		"@types/core-js": "^2.5.8",
 		"@types/tape": "^5.7.0",
 		"auto-changelog": "^2.5.0",
